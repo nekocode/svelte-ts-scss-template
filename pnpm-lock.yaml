@@ -9,11 +9,11 @@ devDependencies:
   rollup-plugin-scss: 2.6.1
   rollup-plugin-svelte: 7.0.0_rollup@2.35.1+svelte@3.31.0
   rollup-plugin-terser: 7.0.2_rollup@2.35.1
-  sass: 1.30.0
+  sass: 1.32.0
   sirv-cli: 1.0.10
   svelte: 3.31.0
-  svelte-check: 1.1.22_sass@1.30.0+svelte@3.31.0
-  svelte-preprocess: 4.6.1_02b21fc84b46cdd9441e44fe299c77b1
+  svelte-check: 1.1.24_sass@1.32.0+svelte@3.31.0
+  svelte-preprocess: 4.6.1_2033e9fedd61f58484b551337bbcba79
   tslib: 2.0.3
   typescript: 4.1.3
 lockfileVersion: 5.2
@@ -1825,7 +1825,7 @@ packages:
     optional: true
     resolution:
       integrity: sha512-VFWDAHOe6mRuT4mZRd4eKE+d8Uedrk6Xnh7Sh9b4NGufQLQjOrvf/MQoOdx+0s92L89FeyUUNfU597j/3uNpag==
-  /sass/1.30.0:
+  /sass/1.32.0:
     dependencies:
       chokidar: 3.4.3
     dev: true
@@ -1833,7 +1833,7 @@ packages:
       node: '>=8.9.0'
     hasBin: true
     resolution:
-      integrity: sha512-26EUhOXRLaUY7+mWuRFqGeGGNmhB1vblpTENO1Z7mAzzIZeVxZr9EZoaY1kyGLFWdSOZxRMAufiN2mkbO6dAlw==
+      integrity: sha512-fhyqEbMIycQA4blrz/C0pYhv2o4x2y6FYYAH0CshBw3DXh5D5wyERgxw0ptdau1orc/GhNrhF7DFN2etyOCEng==
   /scss-tokenizer/0.2.3:
     dependencies:
       js-base64: 2.6.4
@@ -2088,7 +2088,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
-  /svelte-check/1.1.22_sass@1.30.0+svelte@3.31.0:
+  /svelte-check/1.1.24_sass@1.32.0+svelte@3.31.0:
     dependencies:
       chalk: 4.1.0
       chokidar: 3.4.3
@@ -2097,7 +2097,7 @@ packages:
       minimist: 1.2.5
       source-map: 0.7.3
       svelte: 3.31.0
-      svelte-preprocess: 4.6.1_02b21fc84b46cdd9441e44fe299c77b1
+      svelte-preprocess: 4.6.1_2033e9fedd61f58484b551337bbcba79
       typescript: 4.1.3
     dev: true
     hasBin: true
@@ -2105,13 +2105,13 @@ packages:
       sass: '*'
       svelte: ^3.24.0
     resolution:
-      integrity: sha512-fgn4ysnsGJ68bsUhf8IGjkVmtMI+d4mv3NCS1x5f1hbYZz844ZJvdtl4gtLctj9Zk09vsIGBoL0SDJ2fkKyGfw==
-  /svelte-preprocess/4.6.1_02b21fc84b46cdd9441e44fe299c77b1:
+      integrity: sha512-zKd2uX0cJMF7l1Wsw7kYSqpk2P2IB48AQLYJtgfUEIQt7S7r8sOrBvSQ6qjj6bVEouT7z9lcuzoOgjD16x8P/A==
+  /svelte-preprocess/4.6.1_2033e9fedd61f58484b551337bbcba79:
     dependencies:
       '@types/pug': 2.0.4
       '@types/sass': 1.16.0
       detect-indent: 6.0.0
-      sass: 1.30.0
+      sass: 1.32.0
       strip-indent: 3.0.0
       svelte: 3.31.0
       typescript: 4.1.3
@@ -2379,10 +2379,10 @@ specifiers:
   rollup-plugin-scss: ^2.6.1
   rollup-plugin-svelte: ^7.0.0
   rollup-plugin-terser: ^7.0.2
-  sass: ^1.30.0
+  sass: ^1.32.0
   sirv-cli: ^1.0.10
   svelte: ^3.31.0
-  svelte-check: ^1.1.22
+  svelte-check: ^1.1.24
   svelte-preprocess: ^4.6.1
   tslib: ^2.0.3
   typescript: ^4.1.3
